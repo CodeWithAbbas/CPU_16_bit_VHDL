@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../cpu_project.srcs/sources_1/imports/src/ALU.vhd" \
+"../../../../cpu_project.srcs/sources_1/imports/src/Control_Unit.vhd" \
+"../../../../cpu_project.srcs/sources_1/imports/src/Instruction_Mem.vhd" \
+"../../../../cpu_project.srcs/sources_1/imports/src/Mux2to1.vhd" \
+"../../../../cpu_project.srcs/sources_1/imports/src/PC.vhd" \
+"../../../../cpu_project.srcs/sources_1/imports/src/Register_File.vhd" \
+"../../../../cpu_project.srcs/sources_1/imports/src/ZeroExtend.vhd" \
+"../../../../cpu_project.srcs/sources_1/imports/src/Top.vhd" \
+"../../../../cpu_project.srcs/sim_1/imports/src/Top_tb.vhd" \
+
+# Do not sort compile order
+nosort
